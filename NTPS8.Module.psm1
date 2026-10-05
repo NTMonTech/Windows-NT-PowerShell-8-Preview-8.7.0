@@ -5,16 +5,16 @@ Set-StrictMode -Version Latest
 function nt-version {
     [CmdletBinding()]
     param()
-    Write-Host 'NT PowerShell 8 GitHub + Remote Kali Preview 0.8.0' -ForegroundColor Cyan
+    Write-Host 'NT PowerShell 8 GitHub + Remote Kali Preview 8.7.0' -ForegroundColor Cyan
     Write-Host ('Underlying engine: PowerShell ' + $PSVersionTable.PSVersion.ToString())
-    Write-Host 'Publisher of NT extension: Net Tweaking Romania Studio'
+    Write-Host 'Publisher of NT extension: Net Tweaking Studio'
     Write-Host 'Independent project, NOT an official Microsoft PowerShell 8 release.' -ForegroundColor Yellow
 }
 
 function nt-engine {
     [CmdletBinding()]
     param()
-    Write-Host ('NT PS8 version: Preview 0.8.0') -ForegroundColor Magenta
+    Write-Host ('NT PS8 version: Preview 8.7.0') -ForegroundColor Magenta
     Write-Host ('Actual engine: PowerShell ' + $PSVersionTable.PSVersion.ToString())
     Write-Host ('Engine origin: ' + $env:NT_PS8_ENGINE_SOURCE)
     Write-Host ('Engine directory: ' + $PSHOME)
@@ -70,7 +70,7 @@ COMPONENTS
  KALI LINUX AND KALI LINUX TERMINAL SHELL
  nt-kali -Check                             Check remote SSH availability
  nt-kali -Configure user@kali.example -Save  Save remote address only
- nt-kali -Connect user@192.168.1.10         SSH into EXISTING remote Kali
+ nt-kali -Connect user@000.000.0.0         SSH into EXISTING remote Kali
  nt-kali -Exec 'uname -a'                   Linux command on configured Kali
  nt-kali-wsl -Help                          Optional legacy local WSL mode
  nt-kali-shell                              Kali Linux terminal shell
