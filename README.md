@@ -1,4 +1,4 @@
-# Windows-NT-PowerShell-8-Preview-8.7.0 — экспериментальная сборка PowerShell 8 Preview для Windows, разрабатываемая в рамках проекта **NT MonTech**.
+# Windows-NT-PowerShell-8-Preview-8.7.0 — экспериментальная сборка PowerShell 8 Preview для Windows, разрабатываемая в рамках проекта **Net Tweaking Studio**.
 
 Проект предназначен для изучения, разработки и тестирования собственной сборки PowerShell 8 Preview с дополнительной инфраструктурой NT MonTech.
 
